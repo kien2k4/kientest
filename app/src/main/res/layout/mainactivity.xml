@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Management"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program" />
+
+    <RadioGroup
+        android:id="@+id/rg_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_marketing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marketing" />
+
+        <RadioButton
+            android:id="@+id/rb_prof_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prof Comm" />
+
+        <RadioButton
+            android:id="@+id/rb_software_eng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Eng." />
+
+        <RadioButton
+            android:id="@+id/rb_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_special_needs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Needs" />
+
+    <CheckBox
+        android:id="@+id/cb_scholarship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scholarship" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE" />
+</LinearLayout>
